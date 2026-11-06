@@ -2,6 +2,8 @@
 
 Adapt existing images and designs to the **AI Pioneers / رواد الذكاء الاصطناعي** identity. This agent skill applies the AIP navy-purple palette and bundled team emblem while preserving your subject, original text, composition, and medium.
 
+**Members only:** Installation and use are restricted to current **AI Pioneers / رواد الذكاء الاصطناعي** members under the [AIP Restyle Members-Only License](LICENSE).
+
 Use it for photos, illustrations, pixel art, social posts, slides, charts, packaging, and editable SVG or UI designs. The skill includes brand references, ready-to-use palette files, and exact SVG/PNG emblem assets.
 
 <p>
@@ -11,7 +13,7 @@ Use it for photos, illustrations, pixel art, social posts, slides, charts, packa
 
 Examples of integrated branding. See the [logo workflow](references/logo-workflow.md) for exact compositing and generative mockup options.
 
-[Install](#install) · [Use the skill](#use-the-skill) · [Customize](#customize-the-result) · [Python helpers](#optional-python-helpers) · [Palette](#aip-palette) · [Troubleshooting](#troubleshooting)
+[Install](#install) · [Use the skill](#use-the-skill) · [Customize](#customize-the-result) · [Python helpers](#optional-python-helpers) · [Palette](#aip-palette) · [Troubleshooting](#troubleshooting) · [License](#license)
 
 ## Install
 
@@ -191,3 +193,9 @@ To also verify palette colors against the original PDF, install the development 
 ```
 
 The PDF tests report a skip if PyMuPDF is unavailable. Bundled assets are already built; regeneration with `scripts/prepare_assets.py` and `scripts/prepare_palette.py` is optional and rewrites generated assets. For CLI-managed installations, back up local changes before running `npx skills update restyle-ai-pioneers` (add `--global` for a personal install). See the [changelog](CHANGELOG.md) for package history.
+
+## License
+
+This skill uses the custom [AIP Restyle Members-Only License](LICENSE). Only current **AI Pioneers / رواد الذكاء الاصطناعي** members may install, use, or modify it. Members may share copies only with other current members, retaining the license and copyright notices. Permission ends when membership ends.
+
+Public availability of the repository does not grant usage rights to nonmembers. Third-party dependencies and brand assets retain their respective licenses and rights; see the license for full terms.

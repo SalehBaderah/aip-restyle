@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Added a members-only license restricting skill use and sharing to current AI Pioneers / رواد الذكاء الاصطناعي members, with notices in the README and skill instructions.
 - Moved AIP Restyle into the standalone `Sl-15-dev/aip-restyle` repository, preserving the skill's commit history.
 - Updated CLI installation, manual setup, and migration instructions for the standalone package.
 - Excluded local input and output folders from version control.
