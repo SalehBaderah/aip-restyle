@@ -20,26 +20,30 @@ Examples of integrated branding. See the [logo workflow](references/logo-workflo
 You need Node.js and npm for the [Skills CLI](https://skills.sh/docs/cli). From the project where you want to use the skill, run:
 
 ```bash
-npx skills add https://github.com/Sl-15-dev/sl-skills/tree/main --skill restyle-ai-pioneers --agent codex
+npx skills add https://github.com/Sl-15-dev/aip-restyle/tree/main --skill restyle-ai-pioneers --agent codex
 ```
 
 For a personal installation available across projects:
 
 ```bash
-npx skills add https://github.com/Sl-15-dev/sl-skills/tree/main --skill restyle-ai-pioneers --agent codex --global
+npx skills add https://github.com/Sl-15-dev/aip-restyle/tree/main --skill restyle-ai-pioneers --agent codex --global
 ```
 
 Add `--yes` to skip installation prompts. Reload skills or start a new agent session after installing.
 
-**The skill identifier is `restyle-ai-pioneers`.** Use it in `--skill` and in prompts, even though this repository's folder is named `AIP-restyle` and the display name is AIP Restyle.
+**The skill identifier is `restyle-ai-pioneers`.** Use it in `--skill` and in prompts. The repository is named `aip-restyle`, and the display name is AIP Restyle.
 
 ### Other agents and manual installation
 
 Omit `--agent codex` to choose another agent supported by the CLI, or replace it with a supported identifier such as `claude-code` or `cursor`. Skill invocation and image-editing support depend on the host.
 
-For a manual installation, download or clone this repository and copy the complete `AIP-restyle` folder into your host's documented skills directory. For Codex, the personal destination can be `~/.codex/skills/restyle-ai-pioneers/`, with `SKILL.md` directly inside it. Keep `assets/`, `references/`, `scripts/`, and the other package files together. Back up any existing installation before replacing it, then reload skills or start a new session.
+For a manual installation, download or clone this repository and place its contents in your host's documented skills directory. For Codex, the personal destination can be `~/.codex/skills/restyle-ai-pioneers/`, with this repository's `SKILL.md` directly inside it. Keep `assets/`, `references/`, `scripts/`, and the other package files together. Back up any existing installation before replacing it, then reload skills or start a new session.
 
 The installation provides instructions and assets. Raster restyling uses your agent's image-editing tool; editable designs use the host's native editing tools. The optional Python helper below handles exact-logo placement. Installing the skill does not install an image editor.
+
+### Moving an existing installation from sl-skills
+
+AIP Restyle was previously bundled in [Sl-15-dev/sl-skills](https://github.com/Sl-15-dev/sl-skills). Back up any local edits, then run the new installation command above in the same project or with the same `--global` scope. This replaces the installed package and records the new source for future updates. Reload skills or start a new session afterward. The invocation stays `$restyle-ai-pioneers`.
 
 ## Use the skill
 
@@ -137,7 +141,7 @@ The bundled digital values resolve two inconsistent labels in the source guideli
 
 Use the helper when you need the exact bundled emblem composited onto a simple, front-facing raster surface. It places the logo; image restyling still uses the host's editing tools.
 
-Requirements: **Python 3.10+** and **Pillow**. From the installed skill directory containing `SKILL.md` and `requirements.txt` (or `AIP-restyle/` in a repository checkout):
+Requirements: **Python 3.10+** and **Pillow**. From the installed skill directory or the root of this repository, containing `SKILL.md` and `requirements.txt`:
 
 ```bash
 python3 -m venv .venv

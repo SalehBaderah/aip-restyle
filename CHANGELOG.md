@@ -1,4 +1,12 @@
-# v2.1
+# Changelog
+
+## Unreleased
+
+- Moved AIP Restyle into the standalone `Sl-15-dev/aip-restyle` repository, preserving the skill's commit history.
+- Updated CLI installation, manual setup, and migration instructions for the standalone package.
+- Excluded local input and output folders from version control.
+
+## v2.1
 
 - Added white, purple, dark-purple, and navy team-emblem assets in SVG and transparent PNG, preserving the original seven-path geometry.
 - Made on-object integration explicit: shirt/laptop requests must appear on those surfaces; no automatic footer substitute.
