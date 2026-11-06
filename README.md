@@ -5,9 +5,11 @@ Apply the **AI Pioneers / رواد الذكاء الاصطناعي** palette and
 **Members only:** Installation, use, and sharing are restricted to current AI Pioneers members. See the [license](LICENSE).
 
 <p>
-  <img src="assets/examples/integrated-shirt.png" width="240" alt="A mascot wearing a purple shirt with the white AIP emblem">
-  <img src="assets/examples/integrated-laptop.png" width="240" alt="The AIP emblem placed on a laptop lid">
+  <img src="assets/page-21-object.png" width="49%" alt="A dark purple mug with the white AI Pioneers emblem and wordmark">
+  <img src="assets/page-27-stickers.png" width="49%" alt="A coordinated collection of AI Pioneers community stickers in navy, purple, and white">
 </p>
+
+Product branding and community graphics from the bundled AIP identity guide.
 
 ## Install
 
